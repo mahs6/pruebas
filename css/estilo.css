@@ -1,0 +1,86 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+    background-image: url(https://vignette.wikia.nocookie.net/lossimpson/images/5/50/Wiki-background/revision/latest?cb=20200108235134&path-prefix=es);
+}
+
+.frame{
+    width: 80%;
+    height: 300px;
+}
+#body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+
+.button {
+    background-color: #f9d92e;
+    font-size:20px;
+    color:black;
+    padding: 15px;
+    border-radius: 10px;
+    margin:20px;
+    -webkit-transition: all 3s;
+ }
+
+.button:hover {
+    background-color: #f9d92e;
+    font-size:30px;
+    color:black;
+    padding: 15px;   
+    border-radius: 10px;
+    -webkit-transition: all 1s;
+    }
+
+
+    /* simbolos para el footer */
+
+#facebook {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -52px -100px;
+    }
+    
+    #facebook:hover {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -52px -50px;
+    }
+    
+    #youtube {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -98px -100px;
+    }
+    
+    
+    #youtube:hover {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -98px -50px;
+    }
+    
+    #twitter {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -145px -100px;
+    }
+    #twitter:hover {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -145px -50px;
+    }
+
+    .boxfooter {
+        background-color: rgba(105, 105, 105, 0.8);            /* color rgba */  
+        width: 95%;
+        height: 80%;
+        padding: 10px;                                      /* padding */ 
+        margin: 10px;                                      /* margin */ 
+        border-width: 5px;
+    }
